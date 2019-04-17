@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">xinwen</string>
+    <string name="result_error">请求数据失败，请检查网络</string>
+    <string name="type_top">top</string>
+    <string name="type_society">shehui</string>
+    <string name="type_entertainment">yule</string>
+    <string name="type_sports">tiyu</string>
+    <string name="type_finance">caijing</string>
+    <string name="type_technology">keji</string>
+    <string name="type_military">junshi</string>
+    <string name="type_fashion">shishang</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+
+    <string-array name="tab_names">
+        <item>头条</item>
+        <item>社会</item>
+        <item>娱乐</item>
+        <item>体育</item>
+        <item>财经</item>
+        <item>科技</item>
+        <item>军事</item>
+        <item>时尚</item>
+    </string-array>
+</resources>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="testArray">
+        <item>hello java</item>
+        <item>hello android</item>
+        <item>hello recycler view</item>
+        <item>hello card view</item>
+        <item>hello java</item>
+        <item>hello android</item>
+        <item>hello recycler view</item>
+        <item>hello card view</item>
+        <item>hello java</item>
+        <item>hello android</item>
+        <item>hello recycler view</item>
+        <item>hello card view</item>
+    </string-array>
+</resources>
+
