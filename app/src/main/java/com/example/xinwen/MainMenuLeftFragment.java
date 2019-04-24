@@ -6,6 +6,8 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.Window;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.example.xinwen.R;
@@ -16,7 +18,8 @@ public class MainMenuLeftFragment extends Fragment {
     private View myView;
     //
     private TextView tv_show;
-
+    private ImageView blurImageView;
+    private ImageView avatarImageView;
     //重写
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         Log.d(TAG,"onCreateView");
@@ -45,7 +48,12 @@ public class MainMenuLeftFragment extends Fragment {
     /**初始化控件*/
     private void initView(){
         Log.d(TAG,"initView");
-        tv_show = myView.findViewById(R.id.tv_show);
+
+
+        avatarImageView=myView.findViewById(R.id.iv_avatar);
+        blurImageView=myView.findViewById(R.id.iv_blur);
+
+
     }
 
     /**初始化默认数据【这个需要在activity中执行，原因是：在布局文件中通过<fragment>的方式引用Fragment，打开Activity的时候，Fragment的生命周期函数均执行了】
